@@ -364,11 +364,19 @@ tracking/
 *.mp3
 *.wav
 *.flac
-*.png
 *.jpg
 *.jpeg
 *.gif
 *.svg
+# Exception: Allow specific PNG files for project branding
+!public/git_1800_400-5.png
+!public/git_1800_450-6.png
+!public/placeholder-logo.png
+!public/yyc3-*.png
+!public/yyc3-white.png
+!public/yyc3-pwa-icon.png
+# Ignore other PNG files
+*.png
 
 # ========================================
 # 📄 Documentation & Reports
